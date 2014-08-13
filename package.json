@@ -2,7 +2,7 @@
     "author": "John Barry",
     "name": "script-git-bamboo",
     "description": "A collection of command line scripts for executing common git commands on Atlassian Bamboo",
-    "version": "0.0.0",
+    "version": "0.1.1",
     "repository": {
         "type": "git",
         "url": "https://github.com/Cellarise/script-git-bamboo.git"
