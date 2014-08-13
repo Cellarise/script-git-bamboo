@@ -1,0 +1,26 @@
+{
+    "author": "John Barry",
+    "name": "script-git-bamboo",
+    "description": "A collection of command line scripts for executing common git commands on Atlassian Bamboo",
+    "version": "0.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Cellarise/script-git-bamboo.git"
+    },
+    "config": {
+        "build": "n/a",
+        "buildTimestamp": "2014-08-12T13:00:39.651Z",
+        "adminEmail": "admin@cellarise.com"
+    },
+    "bin": {
+        "git-bamboo": "./bin/git-bamboo.bat"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+        "gulp": "^3.8.6",
+        "gulp-rename": "^1.2.0",
+        "gulp-load": "^0.1.1",
+        "gulp-dust-compile-render": "^0.1.0"
+    }
+}

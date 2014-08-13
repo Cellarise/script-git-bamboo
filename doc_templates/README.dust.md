@@ -1,9 +1,9 @@
-# script-git-bamboo
-[![view on npm](http://img.shields.io/npm/v/script-git-bamboo.svg)](https://www.npmjs.org/package/script-git-bamboo)
-[![npm module downloads per month](http://img.shields.io/npm/dm/script-git-bamboo.svg)](https://www.npmjs.org/package/script-git-bamboo)
-[![Dependency Status](https://david-dm.org/Cellarise/script-git-bamboo.svg)](https://david-dm.org/Cellarise/script-git-bamboo)
+# {name}
+[![view on npm](http://img.shields.io/npm/v/{name}.svg)](https://www.npmjs.org/package/{name})
+[![npm module downloads per month](http://img.shields.io/npm/dm/{name}.svg)](https://www.npmjs.org/package/{name})
+[![Dependency Status](https://david-dm.org/Cellarise/{name}.svg)](https://david-dm.org/Cellarise/{name})
 
-> A collection of command line scripts for executing common git commands on Atlassian Bamboo
+> {description}
 
 
 ##Installation 
@@ -94,4 +94,4 @@ exit
 
 MIT License (MIT)
 
-Copyright (c) 2014 John Barry
+Copyright (c) 2014 {author}

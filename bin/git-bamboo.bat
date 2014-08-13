@@ -1,0 +1,1 @@
+FOR /F %%x IN ('sh -c pwd') DO bash -l -c 'cd %%x; export CHERE_INVOKING=1; exec /bin/bash --login - "%~dp0%1.sh"'
