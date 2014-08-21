@@ -7,5 +7,3 @@ require('gulp-load')(gulp);
 // dependencies of start with `gulp-` in package.json
 gulp.loadTasks(__dirname);
 
-// run tasks
-gulp.task('default', ['build']);

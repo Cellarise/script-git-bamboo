@@ -1,19 +1,15 @@
 /* jslint node: true */
 "use strict";
-var GulpDustCompileRender = require("gulp-dust-compile-render");
-var fs = require('fs');
 var rename = require("gulp-rename");
+var fs = require('fs');
+var GulpDustCompileRender = require('gulp-dust-compile-render');
 
 module.exports = function(gulp) {
-
-    gulp.task('build', ['docs'], function() {
-    });
-
-    gulp.task("docs", function(cb){
-        var dest = "";
+    gulp.task("docs-pre", function(cb){
+        var dest = "doc_templates";
         var context = JSON.parse(fs.readFileSync('package.json'));
 
-        gulp.src(['doc_templates/**/*.dust.md'])
+        gulp.src([dest + '/**/*.dust.md'])
             .pipe(new GulpDustCompileRender(context))
             .pipe(rename(function (path) {
                 path.basename = path.basename.replace('.dust','');
@@ -21,5 +17,4 @@ module.exports = function(gulp) {
             .pipe(gulp.dest(dest))
             .on('end', cb);
     });
-
 };
